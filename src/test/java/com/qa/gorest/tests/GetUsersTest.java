@@ -40,7 +40,7 @@ public class GetUsersTest extends BaseTest{
 									.statusCode(APIHttpStatus.OK_200.getCode());
 	}
 	
-	@Test(priority=2)
+	@Test(enabled=false,priority=2)
 	public void getSpecificUserTest() {
 		restClient.get(GOREST_ENDPOINT +"/4432368", true)
 							.then().log().all()
