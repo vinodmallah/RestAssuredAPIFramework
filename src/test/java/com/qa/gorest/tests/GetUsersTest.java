@@ -40,16 +40,16 @@ public class GetUsersTest extends BaseTest{
 									.statusCode(APIHttpStatus.OK_200.getCode());
 	}
 	
-	@Test(enabled=false,priority=2)
+	@Test(enabled=true,priority=2)
 	public void getSpecificUserTest() {
-		restClient.get(GOREST_ENDPOINT +"/4432368", true)
+		restClient.get(GOREST_ENDPOINT +"/4503041", true)
 							.then().log().all()
 								.assertThat()
 									.statusCode(APIHttpStatus.OK_200.getCode())
 										.and()
-											.body("id", equalTo(4432368))
+											.body("id", equalTo(4503041))
 												.and()
-													.body("name",equalTo("Girja Naik"));
+													.body("name",equalTo("Abhisyanta Prajapat"));
 	}
 
 }
