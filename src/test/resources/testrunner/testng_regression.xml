@@ -9,20 +9,20 @@
 			class-name="com.qa.gorest.listeners.ExtentReportListener" />
 	</listeners>
 
-	<!--<test name="Go Rest API Get Users Test">
+	<test name="Go Rest API Get Users Test">
 		<parameter name="baseURI" value="https://gorest.co.in" />
 		<classes>
 			<class name="com.qa.gorest.tests.GetUsersTest" />
 		</classes>
-	</test>-->
+	</test>
 
-	<!--<test name="Go Rest API Create User Test">
+	<test name="Go Rest API Create User Test">
 		<parameter name="baseURI" value="https://gorest.co.in" />
 		<classes>
 			<class name="com.qa.gorest.tests.CreateUserTest" />
 		</classes>
-	</test>-->
-	
+	</test>
+
 	<test name="Go Rest API Schema Validation Test">
 		<parameter name="baseURI" value="https://gorest.co.in" />
 		<classes>
@@ -30,14 +30,14 @@
 		</classes>
 	</test>
 
-	<!--<test name="Circuit API Test">
+	<test name="Circuit API Test">
 		<parameter name="baseURI" value="https://ergast.com" />
 		<classes>
 			<class name="com.qa.gorest.tests.CircuitTest" />
 		</classes>
-	</test>-->
+	</test>
 
-	<!--<test name="Amadeus API Test">
+	<test name="Amadeus API Test">
 		<parameter name="baseURI" value="https://test.api.amadeus.com" />
 		<parameter name="grantType" value="client_credentials" />
 		<parameter name="clientID" value="b1YosBaDDok6TKiLBCb4tX1l2BUKTKv1" />
@@ -45,6 +45,6 @@
 		<classes>
 			<class name="com.qa.gorest.tests.AmadeusAPITest" />
 		</classes>
-	</test>-->
+	</test>
 
 </suite>
